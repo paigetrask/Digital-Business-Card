@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import About from './components/About'
+import Footer from './components/Footer'
+import Info from './components/Info'
+import Interests from './components/Interests'
 
-function App() {
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -22,4 +26,17 @@ function App() {
   );
 }
 
-export default App;
+
+
+export default App;*/
+
+export default function App() {
+  return (
+      <div>
+          <Info />
+          <About />
+          <Interests />
+          <Footer />
+      </div>
+  )
+}
