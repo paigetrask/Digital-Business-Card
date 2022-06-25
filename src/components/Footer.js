@@ -5,7 +5,6 @@ export default function Footer() {
         <div className="footer">
             <img src={require("../images/github-icon.png")} />
             <img src={require("../images/linkedin-icon.png")} />
-            
         </div>
     )
 }
